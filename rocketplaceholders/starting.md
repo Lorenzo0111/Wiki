@@ -7,9 +7,7 @@ Download PlaceholderAPI and RocketPlaceholders and draw them in your plugins fol
 
 
 {% hint style="info" %}
-Plugin links:
-
-PlaceholderAPI: tinyurl.com/PlaceholderAPI
+Dependencies: [https://www.spigotmc.org/resources/placeholderapi.6245/](https://www.spigotmc.org/resources/placeholderapi.6245/)
 {% endhint %}
 
 
