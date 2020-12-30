@@ -81,7 +81,7 @@ public void handleMenu(InventoryClickEvent event) {
 }
 ```
 
-### Final Class:
+### Final Class
 
 {% code title="ExampleMenu.java" %}
 ```java
