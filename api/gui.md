@@ -54,7 +54,7 @@ public class ExampleMenu extends Menu {
 
 ```
 
-### Create an item, add it on the GUI:
+### Create an item, add it in the GUI:
 
 ```java
 public ItemStack example = makeItem(Material.COAL, "§7Example COAL", "§7This is an example coal");
