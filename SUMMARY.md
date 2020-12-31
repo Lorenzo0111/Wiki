@@ -12,14 +12,15 @@
 * [Starting](rocketplaceholders/starting.md)
 * [Configure](rocketplaceholders/configure.md)
 
+## RocketAPI <a id="api"></a>
+
+* [Install](api/starting.md)
+* [GUI](api/gui.md)
+* [Configuration](api/configuration.md)
+
 ## Rocket Bot
 
 * [Starting](rocket-bot/home.md)
 * [Commands](rocket-bot/commands.md)
 * [Permissions](rocket-bot/permissions.md)
-
-## LorenzoAPI <a id="api"></a>
-
-* [Starting](api/starting.md)
-* [GUI](api/gui.md)
 

@@ -1,10 +1,10 @@
-# Starting
+# Install
 
-## LorenzoAPI
+## RocketAPI
 
-[![](https://img.shields.io/github/v/release/Lorenzo0111/LorenzoAPI)](https://github.com/Lorenzo0111/LorenzoAPI/releases/latest) [![](https://img.shields.io/github/issues/Lorenzo0111/LorenzoAPI)](https://github.com/Lorenzo0111/LorenzoAPI/issues)
+[![](https://img.shields.io/github/v/release/Lorenzo0111/RocketAPI)](https://github.com/Lorenzo0111/RocketAPI/releases/latest) [![](https://img.shields.io/github/issues/Lorenzo0111/RocketAPI)](https://github.com/Lorenzo0111/RocketAPI/issues)
 
-This is an API for Lorenzo0111 plugins. With this api you can create gui and more..
+This is an API for RocketAPI plugins. With this api you can create gui and more..
 
 ### How to install
 
@@ -39,7 +39,7 @@ repositories {
 }
 ```
 
-Replace version with ![](https://img.shields.io/github/v/release/Lorenzo0111/LorenzoAPI)
+Replace version with ![](https://img.shields.io/github/v/release/Lorenzo0111/RocketAPI)
 
 [_Remember to download and install the plugin on the server_](https://github.com/Lorenzo0111/LorenzoAPI/releases/latest)
 
