@@ -40,5 +40,7 @@ placeholders:
     text: "This is a test"
 ```
 
+### **More informations:**
 
+{% page-ref page="custom-permissions.md" %}
 
