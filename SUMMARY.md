@@ -10,7 +10,8 @@
 ## RocketPlaceholders
 
 * [Starting](rocketplaceholders/starting.md)
-* [Configure](rocketplaceholders/configure.md)
+* [Configure](rocketplaceholders/configure/README.md)
+  * [Custom Permissions](rocketplaceholders/configure/custom-permissions.md)
 
 ## RocketAPI <a id="api"></a>
 
