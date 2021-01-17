@@ -4,7 +4,7 @@
 
 [![](https://img.shields.io/github/v/release/Lorenzo0111/RocketAPI)](https://github.com/Lorenzo0111/RocketAPI/releases/latest) [![](https://img.shields.io/github/issues/Lorenzo0111/RocketAPI)](https://github.com/Lorenzo0111/RocketAPI/issues)
 
-This is an API for RocketAPI plugins. With this api you can create gui and more..
+This is an API for create Minecraft plugins. With this api you can create gui and more..
 
 ### How to install
 
