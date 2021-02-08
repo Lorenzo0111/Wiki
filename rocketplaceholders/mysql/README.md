@@ -22,7 +22,7 @@ mysql:
 
 Remember to chose a main server, all placeholders are copied from it.
 
-See [here](https://docs.rocketplugins.space/rocketplaceholders/mysql/mysql#what-is-a-main-server).
+See [here](faq.md#what-is-a-main-server).
 
 ### 3: \(Re\)Start the server
 
