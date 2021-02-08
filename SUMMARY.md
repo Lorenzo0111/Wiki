@@ -12,6 +12,9 @@
 * [Starting](rocketplaceholders/starting.md)
 * [Configure](rocketplaceholders/configure/README.md)
   * [Custom Permissions](rocketplaceholders/configure/custom-permissions.md)
+* [MySQL](rocketplaceholders/mysql/README.md)
+  * [MySQL F.A.Q](rocketplaceholders/mysql/faq.md)
+* [API](rocketplaceholders/api.md)
 
 ## RocketAPI <a id="api"></a>
 

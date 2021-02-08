@@ -43,5 +43,3 @@ Replace version with ![](https://img.shields.io/github/v/release/Lorenzo0111/Roc
 
 [_Remember to download and install the plugin on the server_](https://github.com/Lorenzo0111/LorenzoAPI/releases/latest)
 
-
-
