@@ -33,6 +33,7 @@ dependencies {
         <groupId>me.Lorenzo0111</groupId>
         <artifactId>RocketPlaceholders</artifactId>
         <version>VERSION</version>
+        <scope>provided</scope>
     </dependency>
 </dependencies>
 ```
