@@ -9,7 +9,7 @@ How to use our API
 ```groovy
 repositories {
     maven {
-        url = uri('https://repo.repsy.io/mvn/lorenzo0111/public/)
+        url = uri('https://repo.codemc.org/repository/maven-public/')
     }
 }
 
@@ -23,8 +23,8 @@ dependencies {
 ```markup
 <repositories>
     <repository>
-        <id>lorenzo0111</id>
-        <url>https://repo.repsy.io/mvn/lorenzo0111/public/</url>
+        <id>codemc-repo</id>
+        <url>https://repo.codemc.org/repository/maven-public/</url>
     </repository>
 </repositories>
 
