@@ -87,7 +87,7 @@ this.getAPI().getInternalPlaceholders().getStorageManager().getExternalPlacehold
 ```
 
 {% hint style="danger" %}
-Placeholders added via API will synchronized with MySQL
+Placeholders added via API won't synchronized with MySQL
 {% endhint %}
 
 ## Cookbook
