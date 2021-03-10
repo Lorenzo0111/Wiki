@@ -1,6 +1,6 @@
 # Home
 
-## Welcome on the RocketPlugins official wiki.
+Welcome on the RocketPlugins official wiki.
 
 ### Select a category to start.
 
@@ -11,4 +11,8 @@
 {% page-ref page="rocket-bot/home.md" %}
 
 
+
+{% hint style="info" %}
+[You can see javadocs here](https://jd.rocketplugins.space/).
+{% endhint %}
 
