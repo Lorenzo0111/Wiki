@@ -16,6 +16,7 @@
 * [MySQL](rocketplaceholders/mysql/README.md)
   * [MySQL F.A.Q](rocketplaceholders/mysql/faq.md)
 * [API](rocketplaceholders/api.md)
+* [Dev Builds](https://ci.codemc.io/job/lorenzo0111/job/RocketPlaceholders/)
 
 ## RocketAPI <a id="api"></a>
 
