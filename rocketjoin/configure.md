@@ -14,16 +14,29 @@
 prefix: "&c&lRocket&e&lJoin &f&l»"
 no_permission: "&cYou do not have permission to use this command!"
 
-#Placeholders: {Player} (Name) and {DisplayPlayer} (Display Name)
-#PlaceholderAPI Support! Download it from tinyurl.com/PlaceholderAPI
+# Enable Update Message on Join. Default: true
+update-message: true
 
-#Join message
+# Placeholders: {Player} (Name) and {DisplayPlayer} (Display Name)
+# PlaceholderAPI Support! Download it from tinyurl.com/PlaceholderAPI
+
+# Join message
 enable_join_message: true
 join_message: "&a{player} &7joined!"
 
-#Leave message
+# Leave message
 enable_leave_message: true
 leave_message: "&c{player} &7left!"
+
+enable_fist_join: false
+first_join: "&a{player} &7joined for the first time"
+
+# Send a title to the player when he join the server! WARNING: IF "enable_join_message" IS SET TO false THIS FUNCTION IS DISABLED!
+display_title: true
+# Join title
+join_title: "&a&lWelcome {player}!"
+# Join subtitle
+join_subtitle: "&7Welcome in ServerName Server!"
 
 # ---> VIP <---
 
@@ -47,14 +60,7 @@ vip_join_message: "&e&l» &6&lVIP &7{player} joined!"
 # WARNING: IF "vip_leave" IS SET TO false THIS FUNCTION IS DISABLED!
 vip_leave_message: "&e&l» &6&lVIP &7{player} left!"
 
-
-
-#⚠(COMING SOON)⚠ Send a title to players that join the server! ⚠(COMING SOON)⚠
-#display_title: true
-#Join title
-#join_title: "&a&lWelcome {player}!"
-#Join subtitle
-#join_subtitle: "&7Welcome in ServerName Server!"
+# WARNING: If this plugin is running on bungeecord please read https://docs.rocketplugins.space/rocketjoin/bungeecord
 ```
 
 ### Join and Leave PlaceholderAPI examples:
