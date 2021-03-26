@@ -1,5 +1,9 @@
 # Custom Permissions
 
+{% hint style="danger" %}
+This section has been deprecated. Please see [custom conditions](conditions/).
+{% endhint %}
+
 ## Creating a MultiPermission Placeholder
 
 #### With RocketPlaceholders you can create a custom placeholder based on permissions.

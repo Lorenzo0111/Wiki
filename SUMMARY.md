@@ -12,6 +12,11 @@
 
 * [Starting](rocketplaceholders/starting.md)
 * [Configure](rocketplaceholders/configure/README.md)
+  * [Custom Conditions](rocketplaceholders/configure/conditions/README.md)
+    * [JavaScript Condition](rocketplaceholders/configure/conditions/javascript.md)
+    * [Money Condition](rocketplaceholders/configure/conditions/money.md)
+    * [Item Condition](rocketplaceholders/configure/conditions/item.md)
+    * [Permission Condition](rocketplaceholders/configure/conditions/permission.md)
   * [Custom Permissions](rocketplaceholders/configure/custom-permissions.md)
 * [MySQL](rocketplaceholders/mysql/README.md)
   * [MySQL F.A.Q](rocketplaceholders/mysql/faq.md)
