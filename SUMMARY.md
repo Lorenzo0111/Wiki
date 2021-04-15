@@ -17,6 +17,7 @@
     * [Money Condition](rocketplaceholders/configure/conditions/money.md)
     * [Item Condition](rocketplaceholders/configure/conditions/item.md)
     * [Permission Condition](rocketplaceholders/configure/conditions/permission.md)
+    * [Group Condition](rocketplaceholders/configure/conditions/group-condition.md)
   * [Custom Permissions](rocketplaceholders/configure/custom-permissions.md)
 * [MySQL](rocketplaceholders/mysql/README.md)
   * [MySQL F.A.Q](rocketplaceholders/mysql/faq.md)
