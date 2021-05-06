@@ -47,7 +47,7 @@ placeholders:
 ```yaml
   0: #DO NOT USE THE 0 NUMBER
     placeholder: "test" #ex "test" = %rp_test%
-    text: "this is a test" #ex "this is a test" = out: "this is a test" (Players without permission)
+    text: "return 'Hello World';"
     parsejs: true
 ```
 
