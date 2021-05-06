@@ -30,8 +30,6 @@ placeholders:
         text: "this is a secret example"
 ```
 
-
-
 ### With this configuration you can create a public placeholder:
 
 ```yaml
@@ -43,4 +41,17 @@ placeholders:
 ### **More informations:**
 
 {% page-ref page="custom-permissions.md" %}
+
+## Using a JavaScript expression for the placeholder text
+
+```yaml
+  0: #DO NOT USE THE 0 NUMBER
+    placeholder: "test" #ex "test" = %rp_test%
+    text: "this is a test" #ex "this is a test" = out: "this is a test" (Players without permission)
+    parsejs: true
+```
+
+{% hint style="warning" %}
+The JavaScript feature can be used with RocketPlaceholders 1.9.1+
+{% endhint %}
 
