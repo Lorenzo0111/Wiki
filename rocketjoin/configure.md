@@ -10,6 +10,11 @@
 #    | | \ \ (_) | (__|   <  __/ |_  | |__| | (_) | | | | |
 #    |_|  \_\___/ \___|_|\_\___|\__|  \____/ \___/|_|_| |_|
 
+# Do not change these values
+config-version: 1.9.1
+already-asked: false
+
+# Start of the configuration
 
 prefix: "&c&lRocket&e&lJoin &f&l»"
 no_permission: "&cYou do not have permission to use this command!"
@@ -38,6 +43,12 @@ join_title: "&a&lWelcome {player}!"
 # Join subtitle
 join_subtitle: "&7Welcome in ServerName Server!"
 
+# Commands that will be executed from console when an user joins the server
+# If you want to disable this just set it to []
+# See https://docs.rocketplugins.space/rocketjoin/execute-commands for more information
+# commands: []
+commands: []
+
 # ---> VIP <---
 
 # Enable custom features for players with permission "rocketjoin.vip"
@@ -54,13 +65,19 @@ vip_firework: false
 # fireworks to spawn on join. WARNING: IF "vip_firework" IS SET TO false THIS FUNCTION IS DISABLED!
 vip_firework_to_spawn: 3
 
-
 # WARNING: IF "vip_join" IS SET TO false THIS FUNCTION IS DISABLED!
 vip_join_message: "&e&l» &6&lVIP &7{player} joined!"
 # WARNING: IF "vip_leave" IS SET TO false THIS FUNCTION IS DISABLED!
 vip_leave_message: "&e&l» &6&lVIP &7{player} left!"
 
-# WARNING: If this plugin is running on bungeecord please read https://docs.rocketplugins.space/rocketjoin/bungeecord
+# Commands that will be executed from console when a vip user joins the server
+# If you want to disable this just set it to []
+# See https://docs.rocketplugins.space/rocketjoin/execute-commands for more information
+# vip-commands: []
+vip-commands:
+  - "give {player} diamond 1"
+
+# WARNING: If this plugin is running on bungeecord or velocity please read https://docs.rocketplugins.space/rocketjoin/bungeecord
 ```
 
 ### Join and Leave PlaceholderAPI examples:

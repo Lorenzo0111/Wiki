@@ -6,6 +6,7 @@
 
 * [Starting](rocketjoin/starting.md)
 * [Configure](rocketjoin/configure.md)
+* [Join Commands](rocketjoin/execute-commands.md)
 * [Bungeecord](rocketjoin/bungeecord.md)
 
 ## RocketPlaceholders
