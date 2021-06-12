@@ -25,6 +25,13 @@
 * [API](rocketplaceholders/api.md)
 * [Dev Builds](https://ci.codemc.io/job/lorenzo0111/job/RocketPlaceholders/)
 
+## MultiLang
+
+* [Starting](multilang/starting.md)
+* [Configuration](multilang/configuration.md)
+* [Plugin Messages](multilang/translation.md)
+* [Gui](multilang/gui.md)
+
 ## RocketAPI <a id="api"></a>
 
 * [Install](api/starting.md)
