@@ -9,6 +9,6 @@ Dependencies: [https://www.spigotmc.org/resources/placeholderapi.6245/](https://
 {% endhint %}
 
 {% hint style="danger" %}
-**Warning:** If you are running java 1.11+ you have must install [JShader](https://git.io/Jnq1P).
+**Warning:** If you are running java 1.11+ you must install [JShader](https://git.io/Jnq1P).
 {% endhint %}
 
