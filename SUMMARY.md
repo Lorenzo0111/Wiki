@@ -29,6 +29,7 @@
 
 * [Starting](multilang/starting.md)
 * [Configuration](multilang/configuration.md)
+* [Translating](multilang/translating.md)
 * [Messages](multilang/translation.md)
 * [Gui](multilang/gui.md)
 
