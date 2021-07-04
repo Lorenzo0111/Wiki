@@ -29,7 +29,7 @@
 
 * [Starting](multilang/starting.md)
 * [Configuration](multilang/configuration.md)
-* [Plugin Messages](multilang/translation.md)
+* [Messages](multilang/translation.md)
 * [Gui](multilang/gui.md)
 
 ## RocketAPI <a id="api"></a>

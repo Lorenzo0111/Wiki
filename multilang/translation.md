@@ -2,7 +2,7 @@
 description: Translate the plugin messages
 ---
 
-# Plugin Messages
+# Messages
 
 Click [here ](https://github.com/Lorenzo0111/MultiLang/blob/master/src/main/resources/messages.yml)to see the default values.
 
