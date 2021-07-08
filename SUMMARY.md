@@ -6,6 +6,9 @@
 
 * [Starting](rocketjoin/starting.md)
 * [Configure](rocketjoin/configure.md)
+* [Conditions](rocketjoin/conditions/README.md)
+  * [Permission](rocketjoin/conditions/permission.md)
+  * [First Join](rocketjoin/conditions/first-join.md)
 * [Join Commands](rocketjoin/execute-commands.md)
 * [Bungeecord](rocketjoin/bungeecord.md)
 
