@@ -41,6 +41,17 @@ Default language base64. See gui for more information.
 
 List of all languages that a player can select.
 
+#### How does the autodetect work?
+
+You have to put a the Locale code of that language. You can view a list [here](https://minecraft.fandom.com/wiki/Language#Languages).
+
+Example:
+
+```yaml
+languages:
+  english: "en_us"
+```
+
 ### strings
 
 All translated strings
