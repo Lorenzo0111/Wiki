@@ -2,7 +2,7 @@
 
 With RocketPlaceholders you can create custom conditions to view the text.
 
-You can view requirement types [here](https://jd.rocketplugins.space/rocketplaceholders/me/lorenzo0111/rocketplaceholders/creator/conditions/RequirementType.html).
+You can view requirement types [here](https://rocketplaceholders.jd.rocketplugins.space/me/lorenzo0111/rocketplaceholders/creator/conditions/RequirementType.html).
 
 ## Creating a condition
 

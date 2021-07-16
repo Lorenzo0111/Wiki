@@ -2,7 +2,7 @@
 
 This condition is easy to use.
 
-Just set the type to [PERMISSION](https://jd.rocketplugins.space/rocketplaceholders/me/lorenzo0111/rocketplaceholders/creator/conditions/RequirementType.html#PERMISSION) and a value.
+Just set the type to [PERMISSION](https://rocketplaceholders.jd.rocketplugins.space/me/lorenzo0111/rocketplaceholders/creator/conditions/RequirementType.html#PERMISSION) and a value.
 
 Example:
 

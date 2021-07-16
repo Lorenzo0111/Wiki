@@ -2,7 +2,7 @@
 
 With this condition you can check if the player has an item in his inventory.
 
-Set the type to [ITEM](https://jd.rocketplugins.space/rocketplaceholders/me/lorenzo0111/rocketplaceholders/creator/conditions/RequirementType.html#ITEM).
+Set the type to [ITEM](https://rocketplaceholders.jd.rocketplugins.space/me/lorenzo0111/rocketplaceholders/creator/conditions/RequirementType.html#ITEM).
 
 Now you have some options to set.
 

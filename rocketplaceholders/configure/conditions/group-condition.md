@@ -6,7 +6,7 @@ This condition requires [vault ](https://www.spigotmc.org/resources/34315/)and a
 
 This condition is easy to use.
 
-Just set the type to [GROUP](https://jd.rocketplugins.space/rocketplaceholders/me/lorenzo0111/rocketplaceholders/creator/conditions/RequirementType.html#GROUP) and a value.
+Just set the type to [GROUP](https://rocketplaceholders.jd.rocketplugins.space/me/lorenzo0111/rocketplaceholders/creator/conditions/RequirementType.html#GROUP) and a value.
 
 Example:
 
