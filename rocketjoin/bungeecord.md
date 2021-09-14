@@ -2,7 +2,7 @@
 
 ## I've RocketJoin on spigot and bungeecord servers, it is double posting join messages, how can I fix?
 
-It is very easy to fix. Just set `enable_join_message`  to false in the spigot rocketjoin configuration.
+It is very easy to fix. Just disable join and leave messages in the spigot part.
 
 ## Fireworks and sounds doesn't work on bungeecord
 
