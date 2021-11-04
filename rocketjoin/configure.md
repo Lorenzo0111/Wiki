@@ -11,12 +11,14 @@
 #    |_|  \_\___/ \___|_|\_\___|\__|  \____/ \___/|_|_| |_|
 
 # Do not change these values
-config-version: 1.9.1
+config-version: @version@
 already-asked: false
+
+# WARNING: If this plugin is running on bungeecord or velocity please read https://docs.rocketplugins.space/rocketjoin/bungeecord
 
 # Start of the configuration
 
-prefix: "&c&lRocket&e&lJoin &f&l»"
+prefix: "&8&l»"
 no_permission: "&cYou do not have permission to use this command!"
 
 # Enable Update Message on Join. Default: true
@@ -26,22 +28,24 @@ update-message: true
 # PlaceholderAPI Support! Download it from tinyurl.com/PlaceholderAPI
 
 # Join message
-enable_join_message: true
-join_message: "&a{player} &7joined!"
+join:
+  enabled: true
+  message: "&a{player} &7joined!"
+  enable-title: true
+  # Send a title to the player when he join the server!
+  title: "&a&lWelcome {player}!"
+  subtitle: "&7Welcome in ServerName Server!"
 
-# Leave message
-enable_leave_message: true
-leave_message: "&c{player} &7left!"
+leave:
+  enabled: true
+  message: "&c{player} &7left!"
 
-enable_fist_join: false
-first_join: "&a{player} &7joined for the first time"
-
-# Send a title to the player when he join the server! WARNING: IF "enable_join_message" IS SET TO false THIS FUNCTION IS DISABLED!
-display_title: true
-# Join title
-join_title: "&a&lWelcome {player}!"
-# Join subtitle
-join_subtitle: "&7Welcome in ServerName Server!"
+# Only available in a proxy( Velocity or Bungeecord)
+# Called on server switch
+# Additional placeholders: {oldServer} {newServer}
+serverSwitch:
+  enabled: false
+  message: "&a{player} &7switched to &a{newServer}"
 
 # Commands that will be executed from console when an user joins the server
 # If you want to disable this just set it to []
@@ -49,53 +53,31 @@ join_subtitle: "&7Welcome in ServerName Server!"
 # commands: []
 commands: []
 
-# ---> VIP <---
+# If you enable hide feature people with the permission of hide-permission won't have a join message
+enable-hide: false
+hide-permission: "rocketjoin.silent"
 
-# Enable custom features for players with permission "rocketjoin.vip"
-enable_vip_features: true
+# ---> Custom Conditions <---
 
-# enable vip custom join.
-vip_join: true
-# enable vip custom leave.
-vip_leave: true
-# enable vip sound on join. All players can listen this sound
-vip_sound: true
-# enable vip join firework.
-vip_firework: false
-# fireworks to spawn on join. WARNING: IF "vip_firework" IS SET TO false THIS FUNCTION IS DISABLED!
-vip_firework_to_spawn: 3
+conditions:
+  example-vip:
+    # Read http://docs.rocketplugins.space/rocketjoin/conditions for more information
+    type: PERMISSION
+    value: "rocketjoin.vip"
 
-# WARNING: IF "vip_join" IS SET TO false THIS FUNCTION IS DISABLED!
-vip_join_message: "&e&l» &6&lVIP &7{player} joined!"
-# WARNING: IF "vip_leave" IS SET TO false THIS FUNCTION IS DISABLED!
-vip_leave_message: "&e&l» &6&lVIP &7{player} left!"
+    join: "&e&l» &6&lVIP &7{player} joined!"
+    leave: "&e&l» &6&lVIP &7{player} left!"
+    sound: true
+    sound-type: "ENTITY_EXPERIENCE_ORB_PICKUP"
+    fireworks: false
+    fireworks-amount: 3
+    commands: []
 
-# Commands that will be executed from console when a vip user joins the server
-# If you want to disable this just set it to []
-# See https://docs.rocketplugins.space/rocketjoin/execute-commands for more information
-# vip-commands: []
-vip-commands:
-  - "give {player} diamond 1"
-
-# WARNING: If this plugin is running on bungeecord or velocity please read https://docs.rocketplugins.space/rocketjoin/bungeecord
-```
-
-### Join and Leave PlaceholderAPI examples:
-
-```yaml
-join_message: "&a{player} &7joined! &7(%vault_prefix%&7)"
-leave_message: "&c{player} &7left! &7(%vault_prefix%&7)"
-```
-
-### VIP features:
-
-```yaml
-vip_sound: true # enable vip sound on join. All players can listen this sound
-vip_firework: false #Summon a firework when a vip player join
-
-# Custom join for vip players
-vip_join_message: "&e&l» &6&lVIP &7{player} joined!"
-# Custom leave for vip players
-vip_leave_message: "&e&l» &6&lVIP &7{player} left!"
+# Use \n for a new line
+# Set to "disable" to disable this feature
+# welcome: "disable"
+welcome: "&8&l&m===============&e  Welcome &8&l&m===============\n
+    &7Welcome {player} in Minecraft Server!\n
+    Use /kit default to get your kit\n"
 ```
 

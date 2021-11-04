@@ -35,7 +35,9 @@ Default player language
 
 Default language base64. See gui for more information.
 
-{% page-ref page="gui.md" %}
+{% content-ref url="gui.md" %}
+[gui.md](gui.md)
+{% endcontent-ref %}
 
 ### languages
 
@@ -60,7 +62,7 @@ Example of a translated string:
 
 ```yaml
 1:
-  # This is the identifier, in this case the placeholder will be %rp_example%
+  # This is the identifier, in this case the placeholder will be %multilang_example%
   identifier: "example"
   # Default string if language is not selected or is not translated.
   default: "Hello world"
@@ -75,4 +77,3 @@ It is simple and easy to use.
 ## Still confused?
 
 [Click on this message to join on my discord support server. I will help you to configure the plugin.](https://discord.io/RocketPlugins)
-

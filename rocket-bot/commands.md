@@ -16,9 +16,9 @@ With this command you can use some minecraft utilities.
 
 **Get Player Name History:** `-minecraft names (Player)`
 
- **Get Player UUID:** `-minecraft uuids (Player)`
+&#x20;**Get Player UUID:** `-minecraft uuids (Player)`
 
- **Get Player Skin:** `-minecraft skin (Player)`
+&#x20;**Get Player Skin: **`-minecraft skin (Player)`
 
 **Get Player Head:**  `-minecraft head (Player)`
 
@@ -46,7 +46,7 @@ With this command you can get a random meme.
 
 With this command you can add a song to the queue.
 
-**Usage:** _****_`-play (Url/Song Name)`
+**Usage:**_** **_`-play (Url/Song Name)`
 
 #### Examples:
 
@@ -113,7 +113,7 @@ With this command you can ask support to an our moderator.
 Some commands requires a specific permission, see the permission list here:
 {% endhint %}
 
-{% page-ref page="permissions.md" %}
-
-
+{% content-ref url="permissions.md" %}
+[permissions.md](permissions.md)
+{% endcontent-ref %}
 

@@ -10,5 +10,4 @@
 
 **Prefix:** `ADMINISTRATOR`
 
-**Support:** `ADMINISTRATOR`
-
+**Support: **`ADMINISTRATOR`

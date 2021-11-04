@@ -92,10 +92,9 @@ Placeholders added via API won't synchronized with MySQL
 
 ## Cookbook
 
-Click [here ](https://github.com/RocketPluginsMC/RocketPlaceholdersAPI-Cookbook)to view our cookbook.  
+Click [here ](https://github.com/RocketPluginsMC/RocketPlaceholdersAPI-Cookbook)to view our cookbook.\
 
 
 {% hint style="info" %}
-[You can see javadocs here](https://rocketplaceholders.jd.rocketplugins.space/).
+[You can see javadocs here](https://rocketplaceholders.jd.rocketplugins.space).
 {% endhint %}
-

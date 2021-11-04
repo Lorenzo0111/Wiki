@@ -2,9 +2,9 @@
 
 ## How to create a custom configuration
 
-With **RocketAPI** you can create a **custom configuration**.
+With **RocketAPI **you can create a **custom configuration**.
 
-### Create a class, extends it to **Configuration** and create a **constructor**.
+### Create a class, extends it to **Configuration **and create a **constructor**.
 
 ```java
 public class ExampleConfig extends Configuration {
@@ -44,13 +44,16 @@ Remember to create the example field in your config!
 
 {% tabs %}
 {% tab title="Main class" %}
-{% file src="../.gitbook/assets/main.java" caption="Main" %}
+{% file src="../.gitbook/assets/Main.java" %}
+Main
+{% endfile %}
 {% endtab %}
 
 {% tab title="ExampleConfig class" %}
-{% file src="../.gitbook/assets/exampleconfig.java" caption="ExampleConfig" %}
+{% file src="../.gitbook/assets/ExampleConfig.java" %}
+ExampleConfig
+{% endfile %}
 {% endtab %}
 {% endtabs %}
 
-### 
-
+###
