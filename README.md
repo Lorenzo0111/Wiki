@@ -12,10 +12,6 @@ Welcome on the RocketCreations official wiki.
 [starting.md](rocketplaceholders/starting.md)
 {% endcontent-ref %}
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
-
 
 
 {% hint style="info" %}
