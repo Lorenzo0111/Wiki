@@ -1,18 +1,23 @@
 # Home
 
-Welcome on the RocketPlugins official wiki.
+Welcome on the RocketCreations official wiki.
 
 ### Select a category to start.
 
-{% page-ref page="rocketjoin/starting.md" %}
+{% content-ref url="rocketjoin/starting.md" %}
+[starting.md](rocketjoin/starting.md)
+{% endcontent-ref %}
 
-{% page-ref page="rocketplaceholders/starting.md" %}
+{% content-ref url="rocketplaceholders/starting.md" %}
+[starting.md](rocketplaceholders/starting.md)
+{% endcontent-ref %}
 
-{% page-ref page="rocket-bot/home.md" %}
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
+{% endcontent-ref %}
 
 
 
 {% hint style="info" %}
 [You can see javadocs here](https://jd.rocketplugins.space/).
 {% endhint %}
-

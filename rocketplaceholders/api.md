@@ -96,5 +96,5 @@ Click [here ](https://github.com/RocketPluginsMC/RocketPlaceholdersAPI-Cookbook)
 
 
 {% hint style="info" %}
-[You can see javadocs here](https://rocketplaceholders.jd.rocketplugins.space).
+[You can see javadocs here](https://rocketplaceholders.jd.rocketplugins.space/).
 {% endhint %}

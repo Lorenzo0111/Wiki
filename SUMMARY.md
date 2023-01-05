@@ -36,15 +36,3 @@
 * [Messages](multilang/translation.md)
 * [Gui](multilang/gui.md)
 * [RealTime](multilang/realtime.md)
-
-## RocketAPI <a href="#api" id="api"></a>
-
-* [Install](api/starting.md)
-* [GUI](api/gui.md)
-* [Configuration](api/configuration.md)
-
-## Rocket Bot
-
-* [Starting](rocket-bot/home.md)
-* [Commands](rocket-bot/commands.md)
-* [Permissions](rocket-bot/permissions.md)
