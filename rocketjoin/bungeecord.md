@@ -13,8 +13,5 @@ Unfortunately fireworks and sounds doesn't work on bungeecord.
 You can use `/rocketjoin or /rj` for your spigot servers and `/rjb` for your bungeecord server.
 
 {% hint style="info" %}
-Any other question? Join in my [discord server](https://ds.rocketplugins.space)
+Any other question? Join in my [discord server](https://to.lorenzo0111.me/discord)
 {% endhint %}
-
-
-

@@ -2,7 +2,7 @@
 
 With RocketPlaceholders you can create custom conditions to view the text.
 
-You can view requirement types [here](https://rocketplaceholders.jd.rocketplugins.space/me/lorenzo0111/rocketplaceholders/creator/conditions/RequirementType.html).
+You can view requirement types [here](https://github.com/Lorenzo0111/RocketPlaceholders/blob/master/src/main/java/me/lorenzo0111/rocketplaceholders/creator/conditions/RequirementType.java#L30-L54).
 
 ## Creating a condition
 
@@ -16,7 +16,7 @@ Let's add a custom permission condition on this placeholder:
     text: "This is an example"
 ```
 
-Add the conditions section, add the type \(PERMISSION\) and a value:
+Add the conditions section, add the type (PERMISSION) and a value:
 
 ```yaml
     conditions:
@@ -45,4 +45,3 @@ If a player has the `rocketplaceholder.example` and the `rocketplaceholder.examp
 
 
 You can view more informations in the single conditions pages.
-

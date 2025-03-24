@@ -14,7 +14,7 @@
 config-version: @version@
 already-asked: false
 
-# WARNING: If this plugin is running on bungeecord or velocity please read https://docs.rocketplugins.space/rocketjoin/bungeecord
+# WARNING: If this plugin is running on bungeecord or velocity please read https://wiki.lorenzo0111.me/rocketjoin/bungeecord
 
 # Start of the configuration
 
@@ -28,28 +28,34 @@ update-message: true
 # PlaceholderAPI Support! Download it from tinyurl.com/PlaceholderAPI
 
 # Join message
+# Note:
+# otherServerMessage is only available in a proxy( Velocity or Bungeecord)
+# Additional placeholders: {server}
 join:
   enabled: true
   message: "&a{player} &7joined!"
+  otherServerMessage: "&a{player} &7joined &a{server}!"
   enable-title: true
-  # Send a title to the player when he join the server!
+  # Send a title to the player when they join the server!
   title: "&a&lWelcome {player}!"
   subtitle: "&7Welcome in ServerName Server!"
 
 leave:
   enabled: true
   message: "&c{player} &7left!"
+  otherServerMessage: "&c{player} &7left &a{server}!"
 
 # Only available in a proxy( Velocity or Bungeecord)
 # Called on server switch
 # Additional placeholders: {oldServer} {newServer}
 serverSwitch:
   enabled: false
-  message: "&a{player} &7switched to &a{newServer}"
+  messageFrom: "&a{player} &7switched to &a{newServer}"
+  messageTo: "&a{player} &7came from &a{oldServer}"
 
 # Commands that will be executed from console when an user joins the server
 # If you want to disable this just set it to []
-# See https://docs.rocketplugins.space/rocketjoin/execute-commands for more information
+# See https://wiki.lorenzo0111.me/rocketjoin/execute-commands for more information
 # commands: []
 commands: []
 
@@ -61,14 +67,14 @@ hide-permission: "rocketjoin.silent"
 
 conditions:
   example-vip:
-    # Read http://docs.rocketplugins.space/rocketjoin/conditions for more information
+    # Read http://wiki.lorenzo0111.me/rocketjoin/conditions for more information
     type: PERMISSION
     value: "rocketjoin.vip"
 
     join: "&e&l» &6&lVIP &7{player} joined!"
     leave: "&e&l» &6&lVIP &7{player} left!"
     sound: true
-    sound-type: "ENTITY_EXPERIENCE_ORB_PICKUP"
+    sound-type: "entity.experience_orb.pickup"
     fireworks: false
     fireworks-amount: 3
     commands: []

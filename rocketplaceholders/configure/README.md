@@ -13,45 +13,68 @@
 #    |_|    |_|\__,_|\___\___|_| |_|\___/|_|\__,_|\___|_|  |___/
 #
 #
+# This config has been generated with RocketPlaceholders v@version@
+# RocketPlaceholders Wiki: https://docs.rocketplugins.space/rocketplaceholders
 
 # RocketPlaceholders prefix
-prefix: "&c&lRocket&e&lPlaceholders &f&l»&r"
+prefix: "&9RocketPlaceholders &8»&r"
+no_permission: "&cYou do not have permission to use this command!"
+debug: false
 
-# RocketPlaceholders custom placeholders
+#Enable Update Message on Join. Default: true
+update-message: true
 
-placeholders:
+mysql:
+  # If this is not enabled will be used local placeholders
+  enabled: false
+  # The main server is the server from the placeholders are copied
+  main: false
+  # Database information
+  ip: 0.0.0.0
+  port: 3306
+  username: ""
+  password: ""
+  database: ""
 
-  0: #DO NOT USE THE 0 NUMBER
-    placeholder: "test" #ex "test" = %rp_test%
-    text: "this is a test" #ex "this is a test" = out: "this is a test" (Players without permission)
-    permissions:
-      1:
-        permission: "example.1"
-        text: "this is a secret example"
+# All placeholders have been moved in the placeholders folder.
 ```
 
-### With this configuration you can create a public placeholder:
+### Creating a custom placeholder
+
+In order to create a custom placeholder, you need to create a new file in the `placeholders`  with the following layout:
 
 ```yaml
-  1:
-    placeholder: "test"
-    text: "This is a test"
+placeholders:
+  test:
+    placeholder: "test" # The placeholder will be %rp_test% ( PlaceholderAPI ) or {rp_test} ( MVdWPlaceholderAPI )
+    text: "This is an example"
+    conditions:
+      permissionExample:
+        type: PERMISSION # LIST: https://to.lorenzo0111.me/conditions
+        value: "rocketplaceholder.example"
+        text: "Example text with a permission condition"
+      itemExample:
+        type: ITEM
+        material: STONE
+        name: "&cExample"
+        text: "Example text with a item condition"
 ```
 
 ### **More informations:**
 
-{% page-ref page="custom-permissions.md" %}
+{% content-ref url="custom-permissions.md" %}
+[custom-permissions.md](custom-permissions.md)
+{% endcontent-ref %}
 
 ## Using a JavaScript expression for the placeholder text
 
-```yaml
-  0: #DO NOT USE THE 0 NUMBER
-    placeholder: "test" #ex "test" = %rp_test%
-    text: "'Hello World'"
+<pre class="language-yaml"><code class="lang-yaml"><strong>placeholders:
+</strong><strong>    test: #DO NOT USE THE 0 NUMBER
+</strong>    placeholder: "test" #ex "test" = %rp_test%
+    text: "'Hello World' === 'Hello World' ? 'YES' : 'NO'" # This will return YES
     parsejs: true
-```
+</code></pre>
 
 {% hint style="warning" %}
 The JavaScript feature can be used with RocketPlaceholders 1.9.1+
 {% endhint %}
-

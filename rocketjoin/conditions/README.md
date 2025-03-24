@@ -1,8 +1,8 @@
 # Conditions
 
-The RocketJoin conditions system is based on the RocketPlaceholders system, you can learn more about it by [clicking here](../../rocketplaceholders/configure/conditions/).
+The RocketJoin conditions system is similar to the RocketPlaceholders system, you can learn more about it by [clicking here](../../rocketplaceholders/configure/conditions/).
 
-There are two types of conditions: [PERMISSION ](permission.md)and [FIRST ](first-join.md)\( FirstJoin\).
+There are two types of conditions: [PERMISSION ](permission.md)and [FIRST ](first-join.md)( FirstJoin ).
 
 ### Example of configuration:
 
@@ -26,6 +26,4 @@ conditions:
     # Commands to execute on join. Placeholders: {player}
     commands: []
 ```
-
-
 
