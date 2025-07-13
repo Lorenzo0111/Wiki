@@ -10,7 +10,7 @@
   * [Permission](rocketjoin/conditions/permission.md)
   * [First Join](rocketjoin/conditions/first-join.md)
 * [Join Commands](rocketjoin/execute-commands.md)
-* [Proxy](rocketjoin/bungeecord.md)
+* [Proxy](rocketjoin/proxy.md)
 
 ## RocketPlaceholders
 
