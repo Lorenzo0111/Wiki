@@ -1,6 +1,14 @@
 # Configure
 
-## Config:
+The config is really easy to understand, here is a copy of the default one. For each message string such as the `message` one, you can use a list to let the plugin choose a random one each time. Here is an example:
+
+```yaml
+message: 
+  - "&a{player} &7joined!"
+  - "&a{player} &7appeared!"
+```
+
+## Default Config:
 
 ```yaml
 #    _____            _        _          _       _
@@ -19,7 +27,6 @@ already-asked: false
 # Start of the configuration
 
 prefix: "&8&l»"
-no_permission: "&cYou do not have permission to use this command!"
 
 # Enable Update Message on Join. Default: true
 update-message: true
